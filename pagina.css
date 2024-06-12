@@ -1,0 +1,63 @@
+body {
+    background-color: rgb(249, 251, 252); /
+}
+h1 {
+    background-image: url('encabezado1.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    background-color: rgb(242, 241, 247);
+    text-align: center;
+    font-size: 4rem;
+    border: 5px,  solid black;
+    font-family:'Times New Roman', Times, serif
+}
+h2 {
+    font-size: 2rem;
+    border-bottom: 1cm;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+   
+    
+nav {
+    
+    padding: 2rem 2rem;
+    font-size: 2em;
+    line-height: 2rem;
+    background-color: rgb(4, 4, 4);
+    border-radius: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+    
+
+  }
+      
+  .container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+      
+}
+div{
+    background-color: rgb(220, 224, 224);
+    padding:1em;
+}
+div :hover{
+border: 1px solid black;
+}
+p{
+font-family: 'Times New Roman', Times, serif;
+font-size: 1.5em;
+border-bottom-style: double;
+}
+ol{
+    font-size: 1.5em;
+}
+#About_me h1{
+    font-size: small;
+
+}
+    
+    
