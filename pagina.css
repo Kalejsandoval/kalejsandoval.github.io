@@ -23,16 +23,19 @@ h2 {
 
    
     
-nav {
-    
-    padding: 2rem 2rem;
-    font-size: 2em;
-    line-height: 2rem;
-    background-color: rgb(4, 4, 4);
-    border-radius: 2rem;
-    font-family: 'Times New Roman', Times, serif;
-    
-
+nav{   
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+    font-size: 1.5rem;
+    background-image: url(encabezado2.webp);
   }
       
   .container {
@@ -55,9 +58,185 @@ border-bottom-style: double;
 ol{
     font-size: 1.5em;
 }
-#About_me h1{
-    font-size: small;
 
+    
+a[href="#About me"] {
+    text-decoration: none; 
+    color: rgb(249, 247, 248); 
 }
+
+  a[href="#Projects"] {
+    text-decoration: none; 
+    color: rgb(248, 244, 246); 
+  }
+  
+  a[href="#Links"] {
+    text-decoration: none; 
+    color: rgb(255, 254, 254); 
+  }
+  a[href= "https://youtu.be/x2I0P1Y-VD0"]{
+    text-decoration: none; 
+    color: rgb(97, 27, 99); 
+  }
+  #animateLink {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #694f65;
+    color: white;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.3s, background-color 0.3s;
+    border-radius: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:1.5rem;
+}
+
+#animateLink.animated {
+    transform: scale(1.2);
+    background-color: #7f4e80;
+}
+
+#links{
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #694f65;
+    color: white;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.3s, background-color 0.3s;
+    border-radius: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:1.5rem;
+}
+/* Sección de Proyectos y Contacto */
+/* Contenedor Principal */
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    font-family: 'Times New Roman', serif;
+    font-size: 1.0em;
+}
+
+/* Sección de Proyectos y Contacto */
+#Projects, #Contact {
+    padding: 40px 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    font-family: 'Times New Roman', serif;
+    font-size: 1.0em;
+}
+
+#Projects h1, #Contact h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #5c4b88; /* Color morado */
+    text-align: center;
+}
+
+#Projects p, #Contact p {
     
+    line-height: 1.6;
+    color: #491253;
+    margin-bottom: 20px;
+    text-align: justify;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    font-size: 1.0em;
+    text-decoration: none;
+}
+
+#Projects h2, #Projects h3, #Contact h2, #Contact h3 {
+    line-height: 1.6;
+    color: #451841;
+    margin-bottom: 20px;
+    text-align: justify;
+    font-family: 'Times New Roman', serif;
+    font-size: 1.0em;
+    text-decoration: none;
+}
+
+#Projects a, #Contact a {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #f3eded;
+    color: rgb(176, 152, 176);
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.3s, background-color 0.3s;
+    border-radius: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:1.5rem;
     
+
+#Projects a:hover, #Contact a:hover {
+    text-decoration: underline;
+}
+
+#Projects a:active, #Contact a:active {
+    color: #4b3a6a; /* Color morado más oscuro */
+}
+
+/* Diseño para el contenedor principal */
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Estilo adicional para secciones */
+section {
+    padding: 20px 0;
+    border-bottom: #5c4b88 1px solid; /* Color morado */
+}
+
+/* Botones */
+.btn {
+    display: inline-block;
+    font-size: 18px;
+    color: #fff;
+    background: #5c4b88; /* Color morado */
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.btn:hover {
+    background: #4b3a6a; /* Color morado más oscuro */
+}
+
+/* Estilos para la tarjeta de contacto */
+.card {
+    margin: 20px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+    background-color: #d5d1dd; /* Color morado */
+    color: #fff;
+    padding: 10px;
+    border-radius: 8px 8px 0 0;
+    
+}
+
+.card-header .nav-link {
+    color: #fff;
+}
+
+.card-header .nav-link:hover {
+    text-decoration: underline;
+}
+
+.card-body {
+    padding: 20px;

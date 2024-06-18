@@ -3,25 +3,32 @@
 <head>
     <title> My Portfolio </title>
     <link rel="stylesheet" href="pagina.css">
+   <link rel="script" href="script.js">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> <!-- Enlace actualizado a Font Awesome -->
 </head>
 <body>
-      <h1>My Portfolio</h1>
+    
+    <script src="script.js"></script> 
     <div style="text-align:center;">
         <img src="foto1.jpeg" width="600" height="300">
     </div>
     <div style="text-align:center;">
-        <h2> Kalej  Sandoval Salazar/ Software Dev/ HTML | CSS | JavaScript | GIT | GitHub.</h2> 
+        <h2> Kalej  Sandoval Salazar/ Software Junior developer/ HTML | CSS | JavaScript | GIT | GitHub.</h2> 
     </div>
         
     <nav>
-        <a href="#About me">About me</a>
-        <a href="Projects">Projects</a>
-        <a href="#Links">Links</a>
+        <a href="#About Me" id="animateLink">About me</a>
+      
+
+        <a href="#Projects" id="animateLink">Projects</a>
+        <a href="#Contact"id="animateLink">Contact</a>
+       
        
     </nav>
 
     <!-- Secciones -->
-    <section id="About me">
+    <section id="About Me">
+       
 
         <h1>About me</h1>
         <div class="container">
@@ -30,15 +37,22 @@
               </div>
               <div>
                 <p>
-                 Hello! My name is Kalej Sandoval. I am a passionate junior developer and English teacher, willing to create and propose effective and creative solutions.
+                 My name is Kalej Sandoval. I am a passionate junior developer and English teacher, willing to create and propose effective and creative solutions.
                     profiency skills in HTML, CSS, JavaScript, Python, GIT and GitHub. 
-                    C1 English level.
-                    Here you can find my projects!
+                    C1 English level.                   
+                    Frameworks like Boostrap.
                     I want to continue improving my skills so that we can contribute together!
-                    <ol>>
-                        <li> Email: kalej1127@hotmail.com </li>
-                        <li>Linkedin: Kalej Sandoval Salazar</li>
-                       <li>https://github.com/Kalejsandoval  </li>  
+                                    
+                                             <div class="card" style="width: 18rem;">
+                        <div class="card-body">
+                          <h5 class="Watch my video here!"></h5>   
+                                                
+                                                 
+        <a href="https://www.youtube.com/watch?v=x2I0P1Y-VD0" id="links">Watch my video here!</a>
+        <i class="fa-brands fa-square-youtube"></i> 
+                        </div>
+                      </div>
+                       
                        </ol>
                     </p>                  
                         
@@ -46,42 +60,58 @@
           </div>
            </section>
 
-    <section id="Projects">
-        <h1>Acerca de</h1>
-        <p>Aquí puedes encontrar información sobre mí.</p>
-    </section>
-    <section id="Links">
-        <h1>Acerca de</h1>
-        <p>Aquí puedes encontrar información sobre mí.</p>
-    </section>
-
-    
-
-          
-    
-     <div class="container">
-        <div>
-            <img src="kalej.jpeg" width="300" height="300";>
-          </div>
-          <div>
-            <p>
-             Hello! My name is Kalej Sandoval. I am a passionate junior developer and English teacher, willing to create and propose effective and creative solutions.
-                profiency skills in HTML, CSS, JavaScript, Python, GIT and GitHub. 
-                C1 English level.
-                Here you can find my projects!
-                I want to continue improving my skills so that we can contribute together!
-                <ol>>
-                 <li> Email: kalej1127@hotmail.com </li>
-                 <li>Linkedin: Kalej Sandoval Salazar</li>
-                <li>https://github.com/Kalejsandoval  </li>  
-                </ol>
-                </p>                  
-                    
+           <div class="container">
+            <section id="Projects">
+                <h1>Projects </h1>
+               
+                <p>This file includes a link to the classic Pacman game where this character you must eat all the cookies and not let the monsters reach you or the game ends.</p>
+                <a href="https://github.com/Kalejsandoval/PacMan">PacMan game</a>
+               
+                <p>The eyes is the representation of the mouse over eyes and they follow the mouse cursor.</p>
+                <a href="https://github.com/Kalejsandoval/Eye-Exercise">Eye-Exercise</a>
+               
+                <p>It is an application that follows the movement of the bus between different stops.</p>
+                <a href="https://github.com/Kalejsandoval/Real-TIme-Bus-Tracker">Real-Time Bus Tracker</a>
+            </section>
+            <section id="Contact">
+                <h1>Contact <i class="fa-sharp fa-light fa-font change-font"></i></h1>
+                <p>If you would like to get in touch, please reach out via email or through my social media channels.</p>
+                <div class="card text-center">
+                    <div class="card-header">
+                        <ul class="nav nav-tabs card-header-tabs">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="https://www.linkedin.com/in/kalej-fernanda-sandoval-salazar-2a5059219">
+                                    <i class="fab fa-linkedin"></i> LinkedIn
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://www.instagram.com/kalejsandoval/">
+                                    <i class="fab fa-instagram"></i> Instagram
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link disabled" href="https://github.com/Kalejsandoval">
+                                    <i class="fab fa-github"></i> GitHub
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="card-body">
+                        <!-- Puedes agregar más contenido aquí -->
+                    </div>
+                </div>
+            </section>
         </div>
+      
+
+    </section>
+    
+    </section>
+     
+     
       </div>
 
-      <div id= "About me">
-        </div>
+      
        
     
    </body>
